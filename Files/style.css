@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  background-color: rgb(235, 226, 216);
+}
+.main {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  margin: auto;
+  position: relative;
+  top: 160px;
+  /* box-shadow: 20px 20px 30px 0px black; */
+}
+.number {
+  top: 10px;
+  display: block;
+  /* margin: 0 auto; */
+  /* height: 500px; */
+  /* width: 750px;  */
+  font-size: 450px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 30px;
+}
+span.decrease,
+span.reset,
+span.increase {
+  font-size: 35px;
+  display: inline-block;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 10px 30px 10px 30px;
+  margin: 20px;
+  cursor: pointer;
+
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.decrease:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-color: red;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.3),
+    inset 0px 4px 1px 1px rgb(255, 0, 0),
+    inset 0px -3px 1px 1px rgba(204, 198, 197, 0.5);
+  transition: color 0.7s;
+  transition: border-color 0.7s;
+  transition: background-color 0.25s;
+}
+.reset:hover {
+  background-color: rgb(255, 234, 0);
+  color: white;
+  cursor: pointer;
+  border-color: rgb(255, 234, 0);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.3),
+    inset 0px 4px 1px 1px rgb(255, 234, 0),
+    inset 0px -3px 1px 1px rgba(204, 198, 197, 0.5);
+  transition: color 0.7s;
+  transition: border-color 0.7s;
+  transition: background-color 0.7s;
+}
+.increase:hover {
+  background-color: rgb(68, 255, 0);
+  color: white;
+  cursor: pointer;
+  border-color: rgb(68, 255, 0);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.3),
+    inset 0px 4px 1px 1px rgb(68, 255, 0),
+    inset 0px -3px 1px 1px rgba(204, 198, 197, 0.5);
+  transition: color 0.7s;
+  transition: border-color 0.7s;
+  transition: background-color 0.7s;
+}
