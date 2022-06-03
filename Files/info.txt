@@ -1,0 +1,1 @@
+This folder contains CSS and JavaScript files and other files that are used for this site.
